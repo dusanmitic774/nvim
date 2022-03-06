@@ -60,13 +60,16 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-web-devicons")
 	use("kyazdani42/nvim-tree.lua")
 	use("folke/which-key.nvim")
-	use("mhartington/oceanic-next")
 	use("akinsho/bufferline.nvim")
 	use("tpope/vim-surround")
     use("tpope/vim-repeat")
 	use("lewis6991/gitsigns.nvim")
 	use("nvim-lualine/lualine.nvim")
 	use("lewis6991/impatient.nvim")
+
+    -- Colorschemes
+	use("mhartington/oceanic-next")
+    use("whatsthatsmell/codesmell_dark.vim")
 
     -- CMP completions
 	use("hrsh7th/nvim-cmp") -- The completion plugin
@@ -97,13 +100,13 @@ return packer.startup(function(use)
     -- LSP
 	use("neovim/nvim-lspconfig") -- enable LSP
 	use("williamboman/nvim-lsp-installer") -- simple to use language server installer
-
-    use {'tamago324/nlsp-settings.nvim'}
+    use('tamago324/nlsp-settings.nvim')
 
     -- Formatters and Linters
     use("jose-elias-alvarez/null-ls.nvim")
 
-    use 'voldikss/vim-floaterm'
+    use("akinsho/toggleterm.nvim")
+    -- use 'voldikss/vim-floaterm'
 
     use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
 

@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/shinobi/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["codesmell_dark.vim"] = {
+    loaded = true,
+    path = "/home/shinobi/.local/share/nvim/site/pack/packer/start/codesmell_dark.vim",
+    url = "https://github.com/whatsthatsmell/codesmell_dark.vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/shinobi/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -224,15 +229,15 @@ _G.packer_plugins = {
     path = "/home/shinobi/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/home/shinobi/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/shinobi/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
-  },
-  ["vim-floaterm"] = {
-    loaded = true,
-    path = "/home/shinobi/.local/share/nvim/site/pack/packer/start/vim-floaterm",
-    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-maximizer"] = {
     loaded = true,
