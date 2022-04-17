@@ -99,13 +99,13 @@ local mappings = {
 		s = { "<cmd>Telescope git_status<cr>", "Open changed file" },
 		b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
 		c = { "<cmd>Telescope git_commits<cr>", "Checkout commit" },
-		d = { "<cmd>Gitsigns diffthis HEAD<cr>", "Diff" },
+		d = { "<cmd>Gitsigns diffthis<cr>", "Diff" },
 	},
 
 	l = {
 		name = "LSP",
 		r = {
-			"<cmd>Telescope lsp_references<CR>",
+			"<cmd>Telescope lsp_references theme=ivy<CR>",
 			"References",
 		},
 		a = {

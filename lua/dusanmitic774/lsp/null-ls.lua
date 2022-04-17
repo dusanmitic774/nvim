@@ -13,10 +13,12 @@ null_ls.setup({
     sources = {
         formatting.stylua,
         formatting.black,
+        formatting.autopep8,
         formatting.prettier.with({
             filetypes = {"javascript"}
         }),
         diagnostics.eslint_d,
+        diagnostics.pylint,
         code_actions.eslint_d,
     },
 })

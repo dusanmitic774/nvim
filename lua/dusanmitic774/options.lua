@@ -46,6 +46,6 @@ end
 
 vim.cmd("set whichwrap+=<,>,[,],h,l")
 vim.cmd([[set iskeyword+=]]) -- we can add a minus here "-" if we want to treat it as separe word
-vim.cmd([[set iskeyword-=_]]) -- now _ will be separate words
+-- vim.cmd([[set iskeyword-=_]]) -- now _ will be separate words
 vim.cmd([[set formatoptions-=cro]]) -- TODO: this doesn't seem to work
 

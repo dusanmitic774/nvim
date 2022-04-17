@@ -1,8 +1,7 @@
 -- Automatically install packer
 
 -- fn.stdpath "data" points to /home/shinobi/.local/share/nvim
--- this is where all the plugins go
--- checks if packer is installed, if not it pulls it from git and installs
+-- this is where all the plugins go checks if packer is installed, if not it pulls it from git and installs
 local fn = vim.fn
 
 -- Automatically install packer

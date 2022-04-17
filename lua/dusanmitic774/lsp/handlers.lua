@@ -73,7 +73,7 @@ local function lsp_keymaps(bufnr)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
 	vim.api.nvim_buf_set_keymap(bufnr, "n", "rn", "<cmd>lua vim.lsp.buf.rename()<CR>", opts)
 
-	vim.api.nvim_buf_set_keymap(bufnr, "n", "rn", "<cmd>Telescope lsp_references<CR>", opts)
+	vim.api.nvim_buf_set_keymap(bufnr, "n", "rn", "<cmd>Telescope lsp_references theme=ivy<CR>", opts)
 
 	-- we use telescope for references
 	-- vim.api.nvim_buf_set_keymap(bufnr, "n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
